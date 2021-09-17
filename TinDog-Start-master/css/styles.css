@@ -1,0 +1,349 @@
+#title{
+
+    font-family: "Montserrat";
+    padding-bottom: 40px;
+    margin-top:50px;
+    text-align:left;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-weight: bolder;
+}
+/* sectiion */
+.white-section{
+  background-color: #fff;
+}
+.dim-red-section{
+
+}
+.colored-red-section{
+    background-color:#ff4c68;
+    color:#fff;
+}
+h1{
+
+  font-size:3rem;
+  line-height:1.5;
+
+}
+
+.container-fluid{
+  padding:7% 15%;
+}
+#title .container-title{
+  padding:3% 15%;
+}
+/* heading of our any element  */
+.heading-section{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.big-heading{
+  font-size: 3rem;
+  line-height: 1.5;
+  color:white;
+  font-family: 'Montserrat-Black';
+
+
+}
+body{
+font-family: 'Montserrat';
+
+text-align: center;
+}
+
+/* navigation brand */
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-style: 2.8rem;
+  font-weight: bolder;
+
+
+
+}
+.row{
+
+  padding-top:100px;
+}
+.nav-item{
+
+  padding: 0px 16px;
+
+}
+.nav-link{
+  font-size: 1.2rem;
+
+font-family: 'Hind Siliguri';
+
+
+}
+/* navbar */
+.navbar{
+  padding-left:0px;
+opacity:0.6;
+
+}
+
+/* download */
+.button-d{
+  margin:5% 2% 5% 0%;
+}
+.btn-tit{
+  margin:0px 5px;
+}
+/* title image */
+.title-img{
+  width:60%;
+transform: rotate(30deg);
+position: absolute;
+
+
+}
+/* feature */
+.feature-title{
+  font-size: 1.5rem;
+}
+#feature{
+
+
+
+position: relative;
+
+}
+.fb{
+  text-align: center;
+padding :5%;
+}
+.colo{
+  color:#ef8172;
+
+}
+.colo:hover{
+   color:#ff4c68
+}
+/* testimonials section */
+.testimonial-text{
+  font-size:3rem;
+  line-height:1.5;
+}
+#testimonials
+{
+
+
+ background-color:#FF2442;
+ color:white;
+}
+
+.testimonial-img{
+  width:10%;
+clip-path:circle(50%);
+margin:10px;
+
+/* animation: mymove 1s infinite; */
+}
+/* @keyframes mymove {
+  50%{clip-path:circle(40%);
+  } */
+  /* press  */
+  .price-text{
+    font-size:3rem;
+    line-height:1.5;
+  }
+#press{
+  background-color:#FF4848;
+
+  padding-bottom: 10%;
+}
+.logo{
+  width:15%;
+margin:50px 20px 20px 20px;
+}
+/* /pricing */
+#pricing{
+  padding:5% 10%;
+  text-align: center;
+}
+@media (max-width:994px)
+{
+  .feature-title{
+    font-size: 2.9rem;
+  }
+  .navbar-brand{
+    font-size: 2.4rem;}
+  .navbar-nav >li >a{
+    font-size: 1.9rem;
+  }
+  p{
+    font-size: 1.9rem;
+  }
+  .title-img{
+    position: static;
+ margin-right:30px;
+  transform: rotate(0deg);
+
+  }
+  .btn-sign{
+  width:120px;
+  }
+.row {
+  text-align: center;
+}
+}
+/* call to action */
+
+.bt{
+  margin:0px 10px;
+}
+/* fotter */
+#footer{
+ text-align: center;
+
+
+}
+.btm{
+  margin:10px;
+}
+.btm:hover{
+   color:#6B7AA1;
+}
+.v{
+  background-color: grey;
+}
+/* sign */
+.btn-sign{
+height:40px;
+
+padding:0px;
+border-style:hidden;
+margin-left:10px;
+
+}
+.sign{
+
+  margin:0px;
+position: relative;
+top: 300px;
+}
+
+.sign a{
+  padding:0px;
+}
+.card-t{
+margin:auto;
+
+color:white;
+
+}
+@media (min-width:998px)
+{
+
+  .card-t{
+
+  width:500px;
+
+margin-top:60px;
+margin-bottom:60px;
+
+
+  }
+}
+.body-form{
+  opacity: 0.9;
+
+  background-attachment: fixed;
+  background-size: cover;
+  background-image:linear-gradient(#4B6587,#B42B51,#93B5C6,#E63E6D,#C8C6C6,#C9CCD5,#FF6B6B);
+}
+.bo{
+  background-color:transparent;
+}
+@media (max-width:998px)
+{
+  .navbar-toggler
+  {
+    width:40%px;
+  }
+  .card-t{
+
+margin:70px;
+}
+
+
+.form-h4 , .btn-h4{
+  font-size:2.7rem;
+
+}
+.form input{
+  font-size: 2.2rem;
+  font-weight: bold;
+}
+
+
+
+
+
+
+.card-h2{
+    font-size:3.8rem;
+}
+.card-p{
+    font-size:2.6rem;
+}
+input{
+  height:80px;
+
+}
+
+.btn-success{
+  height:110px;
+
+}
+input::-webkit-input-placeholder{
+  font-size: 2.9rem;
+}
+.btn-success{
+margin:50px 0px;
+
+}
+
+}
+
+.btn-success{
+margin:10px 0px;
+
+
+}
+input:focus{
+  border:1px solid;
+
+}
+
+input{
+
+}
+/* input[type="password"]::placeholder{
+
+
+
+}
+input[type="text"]::placeholder{
+
+
+
+} */
+input::-webkit-input-placeholder{
+  font-size: 2.3rem;
+
+}
+.imp{
+  color:red;
+}
+.form input{
+  font-size: 2.2rem;
+  margin:0px;
+
+}
+body{
+  margin:0px;
+}
